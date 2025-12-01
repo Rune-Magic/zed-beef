@@ -1,0 +1,15 @@
+id = "beef"
+name = "Beef"
+version = "0.0.1"
+schema_version = 1
+authors = ["Rune Magic"]
+description = "Support for the Beef Programming Language"
+repository = "https://github.com/Rune-Magic/zed-beef"
+
+[language_servers.beef]
+name = "Beef LSP"
+language = "Beef"
+
+[grammars.beef]
+repository = "https://github.com/Rune-Magic/tree-sitter-beef"
+rev = "0e5a0b2bfc1cdf3f4a01322dfcde96825cb45c91"

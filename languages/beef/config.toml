@@ -1,0 +1,17 @@
+name = "Beef"
+code_fence_block_name = "beef"
+grammar = "beef"
+path_suffixes = ["bf"]
+line_comments = ["// ", "/// "]
+autoclose_before = ";:.,=}])>"
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "\"\"\"", end = "\n\"\"\"", close = true, newline = true, not_in = ["string", "comment"] },
+    { start = "\"", end = "\"", close = true, newline = false, not_in = ["string", "comment"] },
+    { start = "'", end = "'", close = true, newline = false, not_in = ["string", "comment"] },
+]
+tab_size = 1
+hard_tabs = true
+debuggers = ["lldb", "gdb"]

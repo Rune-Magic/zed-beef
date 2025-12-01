@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Beef: Build",
+    "command": "BeefBuild",
+    "args": []
+  },
+  {
+    "label": "Beef: Build & Run",
+    "command": "BeefBuild",
+    "args": ["-run"]
+  },
+  {
+    "label": "Beef: New Workspace",
+    "command": "BeefBuild",
+    "args": ["-new"]
+  }
+]
